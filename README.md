@@ -75,4 +75,29 @@ Aula 01 - Informática teorica:
             
 ---------------------------------------------------------------------------------------------------------------
 
+
+Aula 02 - Info.Teorica:
+
+---------------------------------------------------------
+    Um automato reconhece uma liguagem.
+---------------------------------------------------------
     
+    #Autômatos finitos determinísticos:
+        Composto por:
+            -Conjunto finito e não vazio de estados.         
+            -Único estado a cada instante. 
+            -EX: Estado inicial
+            -É alimentado por uma palavra de entrada composta por uma sequência de simbolos do alfabeto.
+            -Passagem de um estado para outro determinados por regras de transição.
+            -Consome cada simbolo da palavra e adota um novo estado pela regra de transição até chegar no seu estado final.
+            -Ou seja, consumir toda a palavra. 
+ -------------------------------------------------------------------------------------------
+    #Definição formal:
+     Composto por...
+        AFD = É uma quíntupla:  
+            Alfabeto = Sigma
+            Estados = Q
+            Função de transição = δ : Q × Σ → Q
+            Estado inicial = q0 pertencente a Q
+            Estados de aceitação..
+        
