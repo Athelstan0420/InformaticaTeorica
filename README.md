@@ -52,7 +52,7 @@ Aula 01 - Informática teorica:
             EX: K elevado a 0 = λ
             EX: L = {0,1} elevado a 2 -> L = {00,01,10,11}
             EX: L = {a,b} elevado a 3 -> L = {aaa,aab,aba,abb,bbb,bba,bab,baa)
-            EX: L = {0,1} elevado a o -> L = {λ}
+            EX: L = {0,1} elevado a 0 -> L = {λ}
 
         - Fecho de Kleen: 
             é representado por/elevado a asterisco, significa "repetido 0 ou + vezes."
