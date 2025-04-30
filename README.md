@@ -75,8 +75,6 @@ Aula 01 - Informática teorica:
             
 ---------------------------------------------------------------------------------------------------------------
 
-# Aula 02
-
 Aula 02 - Info.Teorica:
 
 ---------------------------------------------------------
@@ -96,9 +94,31 @@ Aula 02 - Info.Teorica:
     #Definição formal:
      Composto por...
         AFD = É uma quíntupla:  
-            Alfabeto = Sigma
-            Estados = Q
-            Função de transição = δ : Q × Σ → Q
-            Estado inicial = q0 pertencente a Q
-            Estados de aceitação..
+            - Alfabeto = Sigma
+            - Estados = Q
+            - Função de transição = δ : Q × Σ → Q
+            - Estado inicial = q0 pertencente a Q
+            - Estados de aceitação..
+-------------------------------------------------------------------------------------
+
+    # Um estado é representado por um circulo com um nome;
+    # O estado inicial é identificado por uma seta;
+    # O estado final é identificado por bordas duplas; 
+    # Um estado pode ser ao mesmo tempo inicial e final; 
+    # Uma transição é representada por uma seta -->;
+
+------------------------------------------------------------------------------------
+    #Autômatos finitos determinísticos:
+        Obrigatótio...
+            - Todos os estados tenham uma regra de transição partindo deles para cada um dos simbolos do alfabeto sigma;
+            - Não haja mais de uma transição que parte do mesmo estado que consome o mesmo simbolo;
+            - Não há obrigação de ter estados finais; 
+            - Ter estado inicial;
+            
+-------------------------------------------------------------------------------------
+
+    #Configuração instantânea:
+        - Estado atual e a sequência de simbolos que falta consumir;
+        - A configuração A leva á configuração B; Representado pel letra "T" Deitada, com a parte de cima virada para a cinfiguração incial; 
+             
         
