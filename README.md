@@ -124,4 +124,31 @@ Aula 02 - Info.Teorica:
         - Estado atual e a sequência de simbolos que falta consumir;
         - A configuração A leva á configuração B; Representado pel letra "T" Deitada, com a parte de cima virada para a cinfiguração incial; 
              
-        
+---------------------------------------------------------------------------------------------------------------
+
+# Aula 03
+
+Aula 03 info. Teórica:
+
+-------------------------------------------------------------------------
+    # Expressões Regulares:
+-------------------------------------------------------------------------     
+
+        - Ferramentas para expressão de linguagem de maneira compacta; 
+        - Uma linguagem é dita uma EXPRESSÃO REGULAR,  se e somente se um AFD reconhece; 
+        - Padrões de caracteres que associam sequências de caracteres no texto;
+        - 
+----------------------------------------------------------------------------------
+        # O que não é uma EXPRESSÃO REGULAR:
+            - Linguagens não reconhecidas por uma máquina de estados finitos;
+            - Linguagens que precisam de memória; 
+            - A memória de MEF é muit limitada;
+            - MEF não guardam e nem contam cadeias; 
+----------------------------------------------------------------------------------
+
+        # Operações em EXPRESSÕES REGULARES:
+            - União: {x | x pertence A ^ x pertence a B};
+            - Concatenação: {xy | x pertence a A e y pertence a B};
+            - Fecho de kleene: {x1, x2, x3... xK | xK >= 0 e cada xI pertence a A}
+
+------------------------------------------------------------------------------------
