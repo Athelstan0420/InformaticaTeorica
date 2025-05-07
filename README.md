@@ -132,8 +132,7 @@ Aula 03 info. Teórica:
 
 -------------------------------------------------------------------------
     # Expressões Regulares:
--------------------------------------------------------------------------     
-
+    
         - Ferramentas para expressão de linguagem de maneira compacta; 
         - Uma linguagem é dita uma EXPRESSÃO REGULAR,  se e somente se um AFD reconhece; 
         - Padrões de caracteres que associam sequências de caracteres no texto;
