@@ -7,23 +7,29 @@ bits = 2
 print(f"Alfabeto utilizado: {alfabeto}")
 print(f"Palavras: {linguagem}")
 
-def cardinalidade(linguagem, bits):
+def cardinalidade(linguagem):
     contador = 1
     for i in linguagem[1:]:
-        if len(i) == bits:
-            print(f"A cardinalidade da palavra {contador} é {len(i)}, ")
-            contador+=1
+        print(f"A cardinalidade da palavra {contador} é {len(i)}, ")
+        contador+=1
 
 
 def concatenacao(linguagem):
-    cont = 1
+    a = []
+    c = 1
     for i in linguagem[1:]:
         concat = [i + linguagem[1] ,i + linguagem[2],i + linguagem[3],i + linguagem[4]]
-        print(f"Concatenaçõs possíveis com a palavra {cont} {concat} e de cardinalidade {bits * bits}")
-        cont+=1  
+        for i in concat:
+            # print(i)
+            a.append(i)
+        print(f"Concatenaçõs possíveis com a palavra {linguagem[c]} {concat} e de cardinalidade {bits * bits}")
+        c+=1
+    # print(a)
 
 
-cardinalidade(linguagem, bits)
+
+# cardinalidade(linguagem)
 concatenacao(linguagem)
+
 
 
