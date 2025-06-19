@@ -167,7 +167,17 @@ Info. Teórica - Aula 04: AFN
 
    
 ------------------------------------------------------------------------------------    
-Info. Teórica - Aula 05: 
+Info. Teórica - Aula 05: CONVERSAO DE AFN P/ AFD
 ------------------------------------------------------------------------------------
-     Um autômato finito não determinístico de trasição vazia é um 
-        autômato sem saída. 
+    - Todo AFD é um AFN, mas a recíproca não é vdd. 
+    - Existe um AFD equivalente para cada AFN. 
+
+    - Passo a passo p/ conversão:
+        Traduzir p/ notação tabular:
+            Construir tabela:
+                1. linha: todos os  estados. (A,B);
+                2. colunas: simbolos do alfabeto. (0,1);
+            
+    
+
+     
