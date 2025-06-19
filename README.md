@@ -165,6 +165,8 @@ Info. Teórica - Aula 04: AFN
     -  δ = QxΣUε -> 2elevado a Q.
     -  TODOS OS ESTADOS TEM UMA TRANSIÇÃO EPSILON PARA SI MESMO.  
 
+    PARA CONSTRUIR UM AFN É NECESSÁRIO PENSAR APENAS NA SOLUÇÃO PARA O AUTÔMATO ACEITAR A PALAVRA;
+
    
 ------------------------------------------------------------------------------------    
 Info. Teórica - Aula 05: CONVERSAO DE AFN P/ AFD
@@ -176,7 +178,8 @@ Info. Teórica - Aula 05: CONVERSAO DE AFN P/ AFD
         Traduzir p/ notação tabular:
             Construir tabela:
                 1. linha: todos os  estados. (A,B);
-                2. colunas: simbolos do alfabeto. (0,1);
+                2. colunas: símbolos do alfabeto. (0,1);
+                
             
     
 
