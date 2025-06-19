@@ -151,3 +151,15 @@ Aula 03 info. Teórica:
             - Fecho de kleene: {x1, x2, x3... xK | xK >= 0 e cada xI pertence a A}
 
 ------------------------------------------------------------------------------------
+Info. Teórica - Aula 04:
+------------------------------------------------------------------------------------
+        Um autômato finito não determinístico de trasição vazia é um 
+    autômato sem saída. 
+    
+        
+       -  ε(épsilon) - AFN = {Q, Σ(sigma), q0, δ(Delta), F}
+       -  δ = QxΣUε -> 2elevado a Q.
+    
+       - TODOS OS ESTADOS TEM UMA TRANSIÇÃO EPSILON PARA SI MESMO.  
+
+------------------------------------------------------------------------------------    
