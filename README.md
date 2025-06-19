@@ -182,6 +182,12 @@ Info. Teórica - Aula 05: CONVERSAO DE AFN P/ AFD
                 
 
 ------------------------------------------------------------------------------------    
-Info. Teórica - Aula 06: AFN DE TRANSIÇÃO VAZIA
+Info. Teórica - Aula 06: EQUIVALÊNCIA DE AUTÔMATOS
 ------------------------------------------------------------------------------------
-    
+
+    - São aqueles que reconhecem a mesma linguagem formal. Para tal cadeia de entrada, ambos os autômatos a aceitarão ou rejeitarão consistentemente. 
+
+    Regras para identificar equivalência:
+
+        1. Os dois autômatos não serão equivalntes se o par {qa, qb} um for estado final e o outro não.
+        2. Se o estado inicial de um for final, então, no segundo, o estado inicial tabém terá que ser final para seram equivalentes. 
