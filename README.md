@@ -180,7 +180,8 @@ Info. Teórica - Aula 05: CONVERSAO DE AFN P/ AFD
                 1. linha: todos os  estados. (A,B);
                 2. colunas: símbolos do alfabeto. (0,1);
                 
-            
-    
 
-     
+------------------------------------------------------------------------------------    
+Info. Teórica - Aula 06: AFN DE TRANSIÇÃO VAZIA
+------------------------------------------------------------------------------------
+    
