@@ -195,3 +195,14 @@ Info. Teórica - Aula 06: EQUIVALÊNCIA DE AUTÔMATOS
 ------------------------------------------------------------------------------------    
 Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 ------------------------------------------------------------------------------------
+
+
+    - SERVE PARA PROVAR QUE UMA LINGUAGEM NAO E REGULAR,
+    - ou seja, que não pode ser reconhecida por um autômato finito,
+    - MAS NAO PROVA QUE UMA LINGUAGEM E REGULAR.
+
+    Se uma linguagem L é regular, então existe um número inteiro p (chamado de constante de bombeamento) tal que qualquer palavra w em L com comprimento ∣w∣≥p pode ser dividida em três partes:
+    
+                                  w=xyz
+
+    
