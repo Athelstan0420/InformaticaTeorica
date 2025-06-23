@@ -221,7 +221,7 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
     
         Suponha que a linguagem é regular.
     
-        Pelo lema, existe um valor p.
+        Pelo lema, existe um valor p. (valor qualquer, só precisa ser maior que o número de estados de um AFD qualquer)
     
         Pegue uma palavra w∈L tal que ∣w∣≥p.
     
