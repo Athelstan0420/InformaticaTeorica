@@ -263,8 +263,13 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
         - Tipo 3 =	 regular =  Regulares = Autômato Finito (AFD/AFN);
     ------------------------------------------------------------------------------------
 
-    G.R = V,T,S,P
+    G.R = (V,T,S,P)
     
-    G.R. são divididas em dois tipos:
+    - G.R. são divididas em dois tipos:
         1. LINEAR DIREITA (A -> xB);
         2. LINEAR ESQUERDA (A -> Bx);
+        
+    - Derivação de uma gramática:
+        Conjunto de todas as cadeias que podem ser derivadas de uma gramática é chamada de linguagem gerada pela gramática;
+
+    ------------------------------------------------------------------------------------
