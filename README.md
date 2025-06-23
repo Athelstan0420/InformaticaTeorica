@@ -250,7 +250,7 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
 ------------------------------------------------------------------------------------
 
-MODELO DE GRAMÁTICA DE NOAM CHOMSKY:
+    # MODELO DE GRAMÁTICA DE NOAM CHOMSKY:
     
     TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO:
     
