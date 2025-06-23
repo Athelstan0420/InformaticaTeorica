@@ -273,3 +273,10 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
         Conjunto de todas as cadeias que podem ser derivadas de uma gramática é chamada de linguagem gerada pela gramática;
 
     ------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------    
+Info. Teórica - Aula 09: MÁQUINA DE TURING
+------------------------------------------------------------------------------------
+
+    - Linguagens recursivamente enumeradas;
+    
