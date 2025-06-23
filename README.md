@@ -1,7 +1,4 @@
-# Aula 01
-
-
-Aula 01 - Informática teorica:
+# Aula 01 - Informática teorica:
 
 ---------------------------------------------------------------------------------
 
@@ -75,10 +72,7 @@ Aula 01 - Informática teorica:
             
 ---------------------------------------------------------------------------------------------------------------
 
-# Aula 02
-
-
-Aula 02 - Info.Teorica:
+# Aula 02 - Info.Teorica:
 
 ---------------------------------------------------------
     Um automato reconhece uma liguagem.
@@ -126,9 +120,7 @@ Aula 02 - Info.Teorica:
              
 ---------------------------------------------------------------------------------------------------------------
 
-# Aula 03
-
-Aula 03 info. Teórica:
+# Aula 03 Aula 03 info. Teórica:
 
 -------------------------------------------------------------------------
     # Expressões Regulares:
@@ -228,7 +220,7 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 
     ------------------------------------------------------------------------------------
 
-    EX:
+    (EX:)
         
         - p=3 (valor qualquer, só precisa ser maior que o número de estados de um AFD qualquer);
         - Pegue a palavra w=aaabbb ∈ L (tem 6 letras ≥ 3);
@@ -241,13 +233,14 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 
         - Exemplo de divisão:
 
-            x=a
-            y=a
-            z=abbb
-            → w=xyz=a+a+abbb=aaabbb
+            x= a
+            y= a
+            z= abbb
+            → w = xyz=a+a+abbb= aaabbb
 
-            - Agora testamos:
-            
-                xy0z=xz=aabbb∈L       
-                xy2z=aa+a+abbb=aaaabbb∈L        
-                xy3z=aaaabbb∈L
+        - Agora testamos:
+        
+            xy0z= xz=aabbb∈L       
+            xy2z= aa+a+abbb=aaaabbb∈L        
+            xy3z= aaaabbb∈L
+    ------------------------------------------------------------------------------------
