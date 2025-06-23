@@ -191,3 +191,7 @@ Info. Teórica - Aula 06: EQUIVALÊNCIA DE AUTÔMATOS
 
         1. Os dois autômatos não serão equivalntes se o par {qa, qb} um for estado final e o outro não.
         2. Se o estado inicial de um for final, então, no segundo, o estado inicial tabém terá que ser final para seram equivalentes. 
+
+------------------------------------------------------------------------------------    
+Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
+------------------------------------------------------------------------------------
