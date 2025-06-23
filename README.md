@@ -200,9 +200,33 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
     - SERVE PARA PROVAR QUE UMA LINGUAGEM NAO E REGULAR,
     - ou seja, que não pode ser reconhecida por um autômato finito,
     - MAS NAO PROVA QUE UMA LINGUAGEM E REGULAR.
-
+    ------------------------------------------------------------------------------------
     Se uma linguagem L é regular, então existe um número inteiro p (chamado de constante de bombeamento) tal que qualquer palavra w em L com comprimento ∣w∣≥p pode ser dividida em três partes:
     
-                                  w=xyz
-
+                                                                           w=xyz
+    de forma que:
     
+        ∣xy∣≤p
+        (A parte xyxy está dentro dos primeiros pp caracteres de ww)
+    
+        ∣y∣≥1
+        (A parte yy não pode ser vazia)
+    
+        Para todo i≥0, xyiz∈L
+        (Se você repetir o bloco y qualquer número de vezes — até 0 vezes — o resultado ainda deve estar em L)
+
+    ------------------------------------------------------------------------------------
+
+    COMO É USADO ?
+    
+        Suponha que a linguagem é regular.
+    
+        Pelo lema, existe um valor p.
+    
+        Pegue uma palavra w∈L tal que ∣w∣≥p.
+    
+        Mostre que para toda divisão de w=xyz que satisfaça as condições 1 e 2, existe algum ii tal que xyiz∉L.
+    
+        Isso contradiz o lema, então L não é regular.
+
+    ------------------------------------------------------------------------------------
