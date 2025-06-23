@@ -196,37 +196,34 @@ Info. Teórica - Aula 06: EQUIVALÊNCIA DE AUTÔMATOS
 Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 ------------------------------------------------------------------------------------
 
-
-    - SERVE PARA PROVAR QUE UMA LINGUAGEM NAO E REGULAR,
-    - ou seja, que não pode ser reconhecida por um autômato finito,
-    - MAS NAO PROVA QUE UMA LINGUAGEM E REGULAR.
     ------------------------------------------------------------------------------------
-    Se uma linguagem L é regular, então existe um número inteiro p (chamado de constante de bombeamento) tal que qualquer palavra w em L com comprimento ∣w∣≥p pode ser dividida em três partes:
+    - SERVE PARA PROVAR QUE UMA LINGUAGEM NÃO É REGULAR,
+    - ou seja, que não pode ser reconhecida por um autômato finito,
+    - MAS NÃO PROVA QUE UMA LINGUAGEM É REGULAR.
+    ------------------------------------------------------------------------------------
+    
+    Se uma linguagem L é regular, então existe um número inteiro p(chamado de constante de bombeamento) tal que qualquer palavra w em L com comprimento ∣w∣ ≥ p pode ser dividida em três partes:
     
                                                                            w=xyz
     de forma que:
     
-        ∣xy∣≤p
-        (A parte xyxy está dentro dos primeiros pp caracteres de ww)
+        1. ∣xy∣ ≤ p
+        (A parte xy está dentro dos primeiros p caracteres de w)
     
-        ∣y∣≥1
-        (A parte yy não pode ser vazia)
+        2. ∣y∣ ≥ 1
+        (A parte y não pode ser vazia)
     
-        Para todo i≥0, xyiz∈L
+        3. Para todo i ≥ 0, xyELEVADO(i)z ∈ L
         (Se você repetir o bloco y qualquer número de vezes — até 0 vezes — o resultado ainda deve estar em L)
 
     ------------------------------------------------------------------------------------
 
     COMO É USADO ?
     
-        Suponha que a linguagem é regular.
-    
+        Suponha que a linguagem é regular. 
         Pelo lema, existe um valor p. (valor qualquer, só precisa ser maior que o número de estados de um AFD qualquer)
-    
-        Pegue uma palavra w∈L tal que ∣w∣≥p.
-    
-        Mostre que para toda divisão de w=xyz que satisfaça as condições 1 e 2, existe algum ii tal que xyiz∉L.
-    
+        Pegue uma palavra w∈L tal que ∣w∣ ≥ p.
+        Mostre que para toda divisão de w=xyz que satisfaça as condições 1 e 2, existe algum i tal que xyELEVADOA(i)z∉L.
         Isso contradiz o lema, então L não é regular.
 
     ------------------------------------------------------------------------------------
