@@ -227,3 +227,27 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
         Isso contradiz o lema, então L não é regular.
 
     ------------------------------------------------------------------------------------
+
+    EX:
+        
+        - p=3 (valor qualquer, só precisa ser maior que o número de estados de um AFD qualquer);
+        - Pegue a palavra w=aaabbb ∈ L (tem 6 letras ≥ 3);
+        - Segundo o lema, podemos dividir: w=xyz
+        
+        Com:
+    
+            ∣xy∣≤ p→ ou seja, x e y estão dentro de aaa;      
+            ∣y∣≥1∣y∣≥1 → yy não pode ser vazio;
+
+        - Exemplo de divisão:
+
+            x=a
+            y=a
+            z=abbb
+            → w=xyz=a+a+abbb=aaabbb
+
+            - Agora testamos:
+            
+                xy0z=xz=aabbb∈L       
+                xy2z=aa+a+abbb=aaaabbb∈L        
+                xy3z=aaaabbb∈L
