@@ -261,3 +261,10 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
         - Tipo 2 =  livre de contexto (GLC) = Livres de Contexto	Autômato = com Pilha(PDA);
         
         - Tipo 3 =	 regular =  Regulares = Autômato Finito (AFD/AFN);
+    ------------------------------------------------------------------------------------
+
+    G.R = V,T,S,P
+    
+    G.R. são divididas em dois tipos:
+        1. LINEAR DIREITA (A -> xB);
+        2. LINEAR ESQUERDA (A -> Bx);
