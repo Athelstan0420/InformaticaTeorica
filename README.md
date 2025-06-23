@@ -218,6 +218,7 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
         Mostre que para toda divisão de w=xyz que satisfaça as condições 1 e 2, existe algum i tal que xyELEVADOA(i)z∉L.
         Isso contradiz o lema, então L não é regular.
 
+        OBS: "i" significa quantas vezes o trecho vai se repetir; 
     ------------------------------------------------------------------------------------
 
     (EX:)
