@@ -245,3 +245,19 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
             xy2z= aa+a+abbb=aaaabbb∈L        
             xy3z= aaaabbb∈L
     ------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------    
+Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
+------------------------------------------------------------------------------------
+
+MODELO DE GRAMÁTICA DE NOAM CHOMSKY:
+    
+    TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO:
+    
+        - Tipo 0 =  irrestrita =  Recursivamente Enumeráveis = Máquina de Turing;
+        
+        - Tipo 1 =  sensível ao contexto;
+        
+        - Tipo 2 =  livre de contexto (GLC) = Livres de Contexto	Autômato = com Pilha(PDA);
+        
+        - Tipo 3 =	 regular =  Regulares = Autômato Finito (AFD/AFN);
