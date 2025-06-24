@@ -313,5 +313,5 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
             - qqr computação que um computador digital faz a MT também faz;
             - Ninguém conseguiu propor um proprela algoritmizável que uma MT não pudesse resulver;
         
-    
+    # O CÁLCULO LAMBDA(ALONZO CHURCH) E UMA MT SÃO EQUIVALENTES;
         
