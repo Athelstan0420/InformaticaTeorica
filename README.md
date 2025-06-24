@@ -153,9 +153,10 @@ Info. Teórica - Aula 04: AFN
     Ou seja, dado um Q existem multiplos próximos Q. Podendo todos serem atingidos de uma só vez. 
     No AFD(Determinítico) existe apenas um próximo Q (Sem escolhas e nem aleatoriedade).
     
-    -  ε(épsilon) - AFN = {Q, Σ(sigma), q0, δ(Delta), F}
+    -  ε(épsilon) - AFN = {Q, Σ(sigma), q0, δ(Delta), F}           <- ESTE É UM AUTOMATO DE TRASIÇÃO VAZIA
     -  δ = QxΣUε -> 2elevado a Q.
     -  TODOS OS ESTADOS TEM UMA TRANSIÇÃO EPSILON PARA SI MESMO.  
+    - TODO ε-AFN PODE SER CONVERTIDO EM UM AFN POR MEIO DO CÁLCULO ε*
 
     PARA CONSTRUIR UM AFN É NECESSÁRIO PENSAR APENAS NA SOLUÇÃO PARA O AUTÔMATO ACEITAR A PALAVRA;
 
