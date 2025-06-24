@@ -278,7 +278,7 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
 Info. Teórica - Aula 09: MÁQUINA DE TURING
 ------------------------------------------------------------------------------------
 
-    - Linguagens recursivamente enumeradas;
+    - LINGUEGM ACEITA PELA MT: Linguagens recursivamente enumeradas;
     - Um autômato com pilha e um autômato de estados finitos estão contidos em uma máquina de Turing;
     - Imagine uma fita que indexa uma determinada palavra de uma determinada linguagem,
     - Agora, imagine uma máquina que tem um cabeçote que se move para frente e para trás sobre essa fita,
@@ -295,3 +295,23 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
     - Temos um estado inicial e dois estados finais: ACEITAÇÃO E REJEIÇÃO;
     - A máquina pode parar aceitando ou rejeitando,
     - Mas se entrar em loop ela não consegue parar;
+
+    # DEFINIÇÃO FORMAL MÁQUINA DE TURING:
+    
+        Q - Conjunto não vazio de estados;
+        SIGMA - Conjunto não vazio de símbolos;
+        ?NONE? - Conjunto não vazio de símbolos da fita;
+        DELTA - Função de ransição
+        q0 - Estado incial;
+        b - Símbolo de branco;
+        F - Conjunto de estados finais (Aceitando ou Rejeitando);
+        
+    # TESE DE TURING:
+
+        - Qualquer computação que possa ser feita por meios mecânicos, pode ser feita por uma máquina de turing;
+        # Argumentos:
+            - qqr computação que um computador digital faz a MT também faz;
+            - Ninguém conseguiu propor um proprela algoritmizável que uma MT não pudesse resulver;
+        
+    
+        
