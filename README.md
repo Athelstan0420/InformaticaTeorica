@@ -292,4 +292,6 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
             Movimento do cabeçote p/ E ou D;
             Se o cabeçote estiver na primeira posição ele não irá consguir andar para a esquerda;
     - TRANSIÇÃO (a -> b,r) = símbolo de leitura -> símbolo de escrita, direção do movimento(E,D);
-    - 
+    - Temos um estado inicial e dois estados finais: ACEITAÇÃO E REJEIÇÃO;
+    - A máquina pode parar aceitando ou rejeitando,
+    - Mas se entrar em loop ela não consegue parar;
