@@ -279,4 +279,5 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
 ------------------------------------------------------------------------------------
 
     - Linguagens recursivamente enumeradas;
+    - Um autômato com pilha e um autômato de estados finitos estão contidos em uma máquina de Turing 
     
