@@ -280,4 +280,16 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
 
     - Linguagens recursivamente enumeradas;
     - Um autômato com pilha e um autômato de estados finitos estão contidos em uma máquina de Turing;
-    
+    - Imagine uma fita que indexa uma determinada palavra de uma determinada linguagem,
+    - Agora, imagine uma máquina que tem um cabeçote que se move para frente e para trás sobre essa fita,
+    - Diante dessa cadeia de entrada, existem algumas operações possíveis sobre a fita:
+    - Leitura/procura de símbolo; Escrita/Atualizar símbolo; Movimento do cabeçote p/ E; Movimento do cabeçote p/ D;
+    - A parte que controla o cabeçote(PARTE DE CONTROLE) é DETERMINÍSTICA;
+    - Regras de Operação: 
+        Cada passo efetua:
+            Leitura do símbolo atual;
+            Atualização/Escrita;
+            Movimento do cabeçote p/ E ou D;
+            Se o cabeçote estiver na primeira posição ele não irá consguir andar para a esquerda;
+    - TRANSIÇÃO (a -> b,r) = símbolo de leitura -> símbolo de escrita, direção do movimento(E,D);
+    - 
