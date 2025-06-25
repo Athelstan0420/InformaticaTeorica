@@ -52,7 +52,7 @@
             EX: L = {0,1} elevado a 0 -> L = {λ}
 
         - Fecho de Kleen: 
-            é representado por/elevado a asterisco, significa "repetido 0 ou + vezes."
+            Dado um alfabeto ou um conjunto de strings , o fecho de Kleene é denotado por o conjunto de todas as cadeias/palavras que podem ser formadas pela concatenação de zero ou mais elementos, incluindo a cadeia vazia . é representado por/elevado a asterisco, significa "repetido 0 ou + vezes."
 
             EX: L = {s}* , ou seja, L = {Lambida, s, ss, sss, ssss, sssss,...}
             EX: L = {p pertence {a,b,c} elevado a n | n >= 0}
