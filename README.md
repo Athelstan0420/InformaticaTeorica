@@ -128,12 +128,12 @@
         - Ferramentas para expressão de linguagem de maneira compacta; 
         - Uma linguagem é dita uma EXPRESSÃO REGULAR,  se e somente se um AFD reconhece; 
         - Padrões de caracteres que associam sequências de caracteres no texto;
-        - 
+        
 ----------------------------------------------------------------------------------
         # O que não é uma EXPRESSÃO REGULAR:
             - Linguagens não reconhecidas por uma máquina de estados finitos;
             - Linguagens que precisam de memória; 
-            - A memória de MEF é muit limitada;
+            - A memória de MEF é muito limitada;
             - MEF não guardam e nem contam cadeias; 
 ----------------------------------------------------------------------------------
 
@@ -143,7 +143,7 @@
             - Fecho de kleene: {x1, x2, x3... xK | xK >= 0 e cada xI pertence a A}
 
 ------------------------------------------------------------------------------------
-Info. Teórica - Aula 04: AFN
+Info. Teórica - Aula 04: AFN (não determinísticos)
 ------------------------------------------------------------------------------------
 
     Diferentemente do AFD, um AFN permite que, em um determinado estado, 
@@ -155,7 +155,7 @@ Info. Teórica - Aula 04: AFN
     
     -  ε(épsilon) - AFN = {Q, Σ(sigma), q0, δ(Delta), F}           <- ESTE É UM AUTOMATO DE TRASIÇÃO VAZIA
     -  δ = QxΣUε -> 2elevado a Q.
-    -  TODOS OS ESTADOS TEM UMA TRANSIÇÃO EPSILON PARA SI MESMO.  
+    - TODOS OS ESTADOS TEM UMA TRANSIÇÃO EPSILON PARA SI MESMO.  
     - TODO ε-AFN PODE SER CONVERTIDO EM UM AFN POR MEIO DO CÁLCULO ε*
 
     PARA CONSTRUIR UM AFN É NECESSÁRIO PENSAR APENAS NA SOLUÇÃO PARA O AUTÔMATO ACEITAR A PALAVRA;
@@ -183,7 +183,7 @@ Info. Teórica - Aula 06: EQUIVALÊNCIA DE AUTÔMATOS
     Regras para identificar equivalência:
 
         1. Os dois autômatos não serão equivalntes se o par {qa, qb} um for estado final e o outro não.
-        2. Se o estado inicial de um for final, então, no segundo, o estado inicial tabém terá que ser final para seram equivalentes. 
+        2. Se o estado inicial de um for final, então, no segundo, o estado inicial também terá que ser final para serem equivalentes. 
 
 ------------------------------------------------------------------------------------    
 Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
@@ -195,9 +195,8 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
     - MAS NÃO PROVA QUE UMA LINGUAGEM É REGULAR.
     ------------------------------------------------------------------------------------
     
-    Se uma linguagem L é regular, então existe um número inteiro p(chamado de constante de bombeamento) tal que qualquer palavra w em L com comprimento ∣w∣ ≥ p pode ser dividida em três partes:
-    
-                                                                           w=xyz
+    Se uma linguagem L é regular, então existe um número inteiro p(chamado de constante de bombeamento)
+    tal que qualquer palavra w em L com comprimento ∣w∣ ≥ p pode ser dividida em três partes: w=xyz
     de forma que:
     
         1. ∣xy∣ ≤ p
@@ -208,6 +207,7 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
     
         3. Para todo i ≥ 0, xyELEVADO(i)z ∈ L
         (Se você repetir o bloco y qualquer número de vezes — até 0 vezes — o resultado ainda deve estar em L)
+        OBS: "i" significa quantas vezes o trecho vai se repetir; 
 
     ------------------------------------------------------------------------------------
 
@@ -253,17 +253,19 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
 
     # MODELO DE GRAMÁTICA DE NOAM CHOMSKY:
     
-    TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO:
+        - TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO:
     
         - Tipo 0 =  irrestrita =  Recursivamente Enumeráveis = Máquina de Turing;
         
         - Tipo 1 =  sensível ao contexto;
         
-        - Tipo 2 =  livre de contexto (GLC) = Livres de Contexto	Autômato = com Pilha(PDA);
+        - Tipo 2 =  livre de contexto (GLC) = Livres de Contexto = Autômato com Pilha(PDA);
         
-        - Tipo 3 =	 regular =  Regulares = Autômato Finito (AFD/AFN);
+        - Tipo 3 =	regular =  Regulares = Autômato Finito (AFD/AFN);
     ------------------------------------------------------------------------------------
 
+
+    - Tipo 3 =	regular =  Regulares = Autômato Finito (AFD/AFN);
     G.R = (V,T,S,P)
     
     - G.R. são divididas em dois tipos:
