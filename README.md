@@ -230,8 +230,8 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
         
         Com:
     
-            ∣xy∣≤ p→ ou seja, x e y estão dentro de aaa;      
-            ∣y∣≥1∣y∣≥1 → yy não pode ser vazio;
+            ∣xy∣ ≤ p → ou seja, x e y estão dentro de aaa;      
+            ∣y∣ ≥ 1 → y (não pode ser vazio);
 
         - Exemplo de divisão:
 
@@ -281,6 +281,7 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
 
     - LINGUEGM ACEITA PELA MT: Linguagens recursivamente enumeradas;
     - Um autômato com pilha e um autômato de estados finitos estão contidos em uma máquina de Turing;
+
     - Imagine uma fita que indexa uma determinada palavra de uma determinada linguagem,
     - Agora, imagine uma máquina que tem um cabeçote que se move para frente e para trás sobre essa fita,
     - Diante dessa cadeia de entrada, existem algumas operações possíveis sobre a fita:
@@ -302,7 +303,7 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
         Q - Conjunto não vazio de estados;
         SIGMA - Conjunto não vazio de símbolos;
         ?NONE? - Conjunto não vazio de símbolos da fita;
-        DELTA - Função de ransição
+        DELTA - Função de transição
         q0 - Estado incial;
         b - Símbolo de branco;
         F - Conjunto de estados finais (Aceitando ou Rejeitando);
@@ -312,7 +313,7 @@ Info. Teórica - Aula 09: MÁQUINA DE TURING
         - Qualquer computação que possa ser feita por meios mecânicos, pode ser feita por uma máquina de turing;
         # Argumentos:
             - qqr computação que um computador digital faz a MT também faz;
-            - Ninguém conseguiu propor um proprela algoritmizável que uma MT não pudesse resulver;
+            - Ninguém conseguiu propor um problema algoritmizável que uma MT não pudesse resolver;
         
     # O CÁLCULO LAMBDA(ALONZO CHURCH) E UMA MT SÃO EQUIVALENTES;
         
