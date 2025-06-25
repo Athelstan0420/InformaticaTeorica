@@ -251,9 +251,11 @@ Info. Teórica - Aula 07: LEMA DO BOMBEAMENTO
 Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
 ------------------------------------------------------------------------------------
 
+    -> Permite a geração de linguagens que podem ser reconhecidas por autômatos finitos. 
+
     # MODELO DE GRAMÁTICA DE NOAM CHOMSKY:
     
-        - TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO:
+        [TIPO - GRAMÁTICA ACEITA - LINGUAGEM ACEITA - AUTÔMATO]
     
         - Tipo 0 =  irrestrita =  Recursivamente Enumeráveis = Máquina de Turing;
         
@@ -261,12 +263,18 @@ Info. Teórica - Aula 08: GRAMÁTICAS REGULARES
         
         - Tipo 2 =  livre de contexto (GLC) = Livres de Contexto = Autômato com Pilha(PDA);
         
-        - Tipo 3 =	regular =  Regulares = Autômato Finito (AFD/AFN);
+      -> ( - Tipo 3 =	regular =  Regulares = Autômato Finito (AFD/AFN); ) <-
     ------------------------------------------------------------------------------------
 
 
     - Tipo 3 =	regular =  Regulares = Autômato Finito (AFD/AFN);
-    G.R = (V,T,S,P)
+    
+    G.R = (V,T,S,P), ou seja, é composto por uma 4-upla;
+
+    V: é um conjunto finito de variáveis (símbolos não-terminais).
+    T: é um conjunto finito de símbolos terminais.
+    P: é um conjunto finito de regras de produção, cada uma no formato A → a ou A → aB, onde A e B são variáveis e 'a' é um terminal.
+    S: é o símbolo inicial (variável inicial). 
     
     - G.R. são divididas em dois tipos:
         1. LINEAR DIREITA (A -> xB);
